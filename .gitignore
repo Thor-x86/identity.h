@@ -1,0 +1,96 @@
+# Template from: https://gist.github.com/jmsaavedra/20a1a845fe5f3a2b726a
+
+###################################
+# general ignore patterns
+###################################
+
+obj/
+*.o
+Debug*/
+Release*/
+*.mode*
+*.app/
+*.pyc
+.svn/
+
+###################################
+# IDE specific
+###################################
+
+# XCode
+*.pbxuser
+*.perspective
+*.perspectivev3
+*.mode1v3
+*.mode2v3
+
+# XCode 4
+xcuserdata
+*.xcworkspace
+
+# Code::Blocks
+*.depend
+*.layout
+
+# Visual Studio
+*.sdf
+*.opensdf
+*.suo
+ipch/
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+
+# Eclipse
+.metadata
+local.properties
+.externalToolBuilders
+
+
+###################################
+# OS Specific
+###################################
+
+# Linux
+*~
+# KDE
+.directory
+
+# OSX
+**/.DS_Store
+.DS_Store
+*.swp
+*~.nib
+# Thumbnails
+._*
+
+# Windows
+# Windows image file caches
+Thumbs.db
+# Folder config file
+Desktop.ini
+
+# Android
+.csettings
+/libs/openFrameworksCompiled/project/android/paths.make
+
+
+###################################
+# Project Specific
+###################################
+
+# CMake Build
+.cmake/
+build/
+
+# Compilation Output
+/out/
+
+# Compilation Output for Examples
+/examples/simple/simple
+/examples/real_use_case/real_use_case
+/examples/real_use_case/*.so
+
+# Placeholder File
+**/.placeholder
